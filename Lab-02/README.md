@@ -11,7 +11,7 @@ The program reads a list of English words from a text file and finds possible **
 * Character deletion
 
 For example:
-`GROW → GLOW → LOW → SLOW`
+GROW → GLOW → LOW → SLOW
 
 Each step changes only one character between consecutive words. 
 
@@ -27,61 +27,10 @@ Each step changes only one character between consecutive words.
 
 Example guessing game:
 
-```
 HEAL - ? - EAR
-```
 
-The user has **3 attempts** to guess the hidden word.
+The user has 3 attempts to guess the hidden word.
 
-## Program Structure
-
-Example classes used in the project:
-
-```
-Word.java
-WordReader.java
-Main.java
-GameManager.java
-```
-
-Main components include:
-
-* `Word` class to represent each word
-* `ArrayList<Word>` to store all words
-* `possibleChains` list to store chainable words
-* Methods to check if two words can form a chain
-
-## Input Files
-
-The program uses:
-
-```
-words.txt
-```
-
-This file contains English words (3–7 letters) used to generate chains.
-
-## Optional Optimization
-
-To improve runtime, filtered word lists or chain data may be saved into:
-
-```
-filtered_words.txt
-chains.txt
-```
-
-These files help reduce processing time when running the program again.
-
-## How to Run
-
-1. Place `words.txt` in the project folder
-2. Compile the Java files
-3. Run the main class
-
-```
-javac *.java
-java Main
-```
 
 ## Course
 
