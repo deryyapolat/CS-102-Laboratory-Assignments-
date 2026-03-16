@@ -1,0 +1,1 @@
+This project is a simplified Monopoly-style console game written in Java for the CS102 Algorithms and Programming II assignment. Players roll a die, move around the board, buy properties, build houses, pay rent, and experience special events while competing against computer-controlled players. The game continues until one player remains or the turn limit is reached.
